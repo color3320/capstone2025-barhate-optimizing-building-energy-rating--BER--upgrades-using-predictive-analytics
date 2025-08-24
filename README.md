@@ -1,4 +1,5 @@
 # Optimizing Building Energy Rating (BER) Upgrades using Predictive Analytics
+## https://data.gov.ie/dataset/ber-research-tool - Data could not be uploaded
 
 This thesis builds a practical pipeline to **predict BER, CO₂ emissions, and envelope U-values** from **partial homeowner inputs**, combining typed preprocessing with **imputation** (Median, Bayesian MICE, MissForest, Denoising Autoencoder) and **LightGBM** for multi-output regression. In tests, **DEAP-inspired features** improved accuracy; **MissForest** generally provided the strongest imputations; and **multi-output LightGBM** matched or slightly beat chained regressors while being simpler to deploy. The approach supports fast, credible estimates to guide retrofit decisions under real-world missingness.
 
